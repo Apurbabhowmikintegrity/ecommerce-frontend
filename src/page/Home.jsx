@@ -1,8 +1,9 @@
 import react from 'react';
+import Homeslider from '../component/Homeslider';
 const Home=()=>{
     return(
         <div>
-            <p>Home</p>
+            <Homeslider/>
         </div>
     )
 }

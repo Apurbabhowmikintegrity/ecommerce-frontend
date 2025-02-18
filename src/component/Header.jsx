@@ -43,7 +43,7 @@ const Header=()=>{
         <div className="header py-4 border-b-[1px] border-gray-250">
           <div className="container flex items-center justify-between">
             <div className="col1 w-[25%]">
-              <Link to={"/"}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbTbNVUQipZGxSV7qdj98yqdAhcJMAH74fvA&s" className="w-[30%] h-[50px]"/></Link>
+              <Link to={"/"}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI9qmHSCbVv4ST1Q_LZqidPCR3YWn1LS52_A&s" className="w-[30%] h-[50px]"/></Link>
             </div>
             <div className="col2 w-[45%]">
               <Search/>

@@ -19,7 +19,7 @@ const Navigation=()=>{
                     <Link to="/" className="link transition text-[14px] font-[500]">
                     <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] !hover:!text-[#ff5252]">Fashion</Button>
                     </Link>
-                    <div className="submenu absolute top-[120%] left-[0%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
+                    <div className="submenu absolute top-[120%] left-[0%] min-w-[150px] bg-white shadow-md opacity-0 transition-all z-50">
                         <ul>
                             <li className="list-none w-full">
                             <Link to="/" className="">

@@ -2,58 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  margin:0px;
-  padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
-body{
+
+body {
   background: #f5f0f0;
-  color:rgba(0,0,0,0.7)
+  color: rgba(0, 0, 0, 0.7)
 }
-.container{
-  width:90%;
-  margin:auto;
+
+.container {
+  width: 90%;
+  margin: auto;
 }
-header .top-strip{
-  border-top:1px solid rgba(0,0,0,0.1);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+header .top-strip {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.link:hover{
-  color:#ff5252;
+
+.link:hover {
+  color: #ff5252;
 }
-.MuiBadge-badge{
+
+.MuiBadge-badge {
   background-color: #ff5252 !important;
 }
-nav ul button{
+
+nav ul button {
   text-transform: capitalize !important;
-  color:rgba(0,0,0,0.9) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
 }
-nav ul button:hover{
+
+nav ul button:hover {
   text-transform: capitalize !important;
 }
-nav ul button:hover{
-background: none !important;
+
+nav ul button:hover {
+  background: none !important;
 }
+
 /* sercch box */
-.searchBox input::placeholder{color:#1f1f1f !important};
-/* navmenu */
-.nav li .submenu{
-  visibility: hidden;
-  }
-  .nav li .submenu button{
-    font-weight: 400 !important;
-  }
-.nav li:hover .submenu{
-opacity: 1 !important;
-visibility: inherit;
-top:100%;
+.searchBox input::placeholder {
+  color: #1f1f1f !important
 }
-.nav li .submenu li:hover button{color:#ff5252}
-.nav li .submenu li .submenu{top:0px !important; left:120% !important; opacity: 0 !important;}
-.nav li .submenu li:hover .submenu{left:120% !important; opacity: 1 !important;}
-.nav li .submenu li .submenu button{color:rgba(0,0,0,0.8) !important}
-.nav li .submenu li .submenu button:hover{color:#ff5252 !important}
+
+;
+
+/* navmenu */
+.nav li .submenu {
+  visibility: hidden;
+}
+
+.nav li .submenu button {
+  font-weight: 400 !important;
+}
+
+.nav li:hover .submenu {
+  opacity: 1 !important;
+  visibility: inherit;
+  top: 100%;
+}
+
+.nav li .submenu li:hover button {
+  color: #ff5252
+}
+
+.nav li .submenu li .submenu {
+  top: 0px !important;
+  left: 120% !important;
+  opacity: 0 !important;
+}
+
+.nav li .submenu li:hover .submenu {
+  left: 120% !important;
+  opacity: 1 !important;
+}
+
+.nav li .submenu li .submenu button {
+  color: rgba(0, 0, 0, 0.8) !important
+}
+
+.nav li .submenu li .submenu button:hover {
+  color: #ff5252 !important
+}
 
 /* Hide arrows by default
 .mySwiper .swiper-button-next,
@@ -118,3 +152,99 @@ top:100%;
   color: black; 
 } */
 
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 100%;
+  width: 100%;
+  height: 45px;
+  min-width: 45px;
+  box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 22px !important;
+  color: #000;
+}
+
+.mySwiper .swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+}
+
+.mySwiper .swiper-button-prev:after {
+  font-size: 16px !important;
+}
+
+.mySwiper .swiper-button-next {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+}
+
+.mySwiper .swiper-button-next:after {
+  font-size: 16px !important;
+}
+
+.homeCatSlider {
+  overflow: inherit !important;
+}
+
+nav ul button:hover {
+  background: none !important;
+}
+
+.sliderHome {
+  overflow: inherit !important;
+}
+
+.homeCatSlider .swiper-button-prev {
+  left: 4px !important
+}
+
+.homeCatSlider .swiper-button-next {
+  right: 4px !important
+}
+
+.homeCatSlider .item {
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.homeCatSlider .swiper-button-prev:hover,
+.homeCatSlider .swiper-button-next:hover {
+  background: #ff5252 !important;
+}
+
+.homeCatSlider .swiper-button-prev:hover::after,
+.homeCatSlider .swiper-button-next:hover::after {
+  color: #fff !important;
+}
+
+.homeCatSlider .item:hover img {
+  transform: scale(1.1);
+}
+
+.homeCatSlider .swiper-button-next.swiper-button-disabled,
+.homeCatSlider .swiper-button-prev.swiper-button-disabled {
+  background-color: gray;
+  color: black;
+}
+
+.homeCatSlider .swiper-button-next,
+.homeCatSlider .swiper-button-prev {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.homeCatSlider:hover .swiper-button-next,
+.homeCatSlider:hover .swiper-button-prev {
+  opacity: 1;
+  visibility: visible;
+}

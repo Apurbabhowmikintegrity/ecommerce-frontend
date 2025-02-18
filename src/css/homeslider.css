@@ -1,45 +1,67 @@
-.mySwiper .swiper-button-next,
-.mySwiper .swiper-button-prev {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
-  width: 24px;
-  height: 24px; 
-  background-color: red; 
-  color: white; 
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px; 
-}
+  /* .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    width: 24px;
+    height: 24px; 
+    background-color: red; 
+    color: white; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+  }
 
 
-.homeCatSlider:hover .swiper-button-next,
-.homeCatSlider:hover .swiper-button-prev {
-  opacity: 1;
-  visibility: visible;
-}
+  .homeCatSlider:hover .swiper-button-next,
+  .homeCatSlider:hover .swiper-button-prev {
+    opacity: 1;
+    visibility: visible;
+  }
 
 
-.mySwiper .swiper-button-next {
-  right: 10px; 
-}
+  .mySwiper .swiper-button-next {
+    right: 10px; 
+  }
 
-.mySwiper .swiper-button-prev {
-  left: 10px; 
-}
-
-
-.mySwiper .swiper-button-next::after,
-.mySwiper .swiper-button-prev::after {
-  font-size: 16px; 
-}
+  .mySwiper .swiper-button-prev {
+    left: 10px; 
+  }
 
 
-.mySwiper .swiper-button-next.swiper-button-disabled,
-.mySwiper .swiper-button-prev.swiper-button-disabled {
-  background-color: gray; 
-  color: black; 
-}
+  .mySwiper .swiper-button-next::after,
+  .mySwiper .swiper-button-prev::after {
+    font-size: 16px; 
+  }
 
+
+  .mySwiper .swiper-button-next.swiper-button-disabled,
+  .mySwiper .swiper-button-prev.swiper-button-disabled {
+    background-color: gray; 
+    color: black; 
+  }
+  */
+  /* .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+
+  .homeCatSlider:hover .swiper-button-next,
+  .homeCatSlider:hover .swiper-button-prev {
+    opacity: 1;
+    visibility: visible;
+  } */

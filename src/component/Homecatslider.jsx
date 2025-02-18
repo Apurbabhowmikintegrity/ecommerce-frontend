@@ -19,7 +19,7 @@ const Homecatslider=()=>{
         <SwiperSlide>
             <Link to="/">
           <div className="item py-8 px-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
-            <img src="https://demos.codezeel.com/prestashop/PRS21/PRS210502/modules/cz_categoryimagelist/views/img/11-cz_categoryimagelist.jpg" className="w-[60px]"/>
+            <img src="https://demos.codezeel.com/prestashop/PRS21/PRS210502/modules/cz_categoryimagelist/views/img/11-cz_categoryimagelist.jpg" className="w-[60px] transition-all"/>
             <h3 className="font-[500] mt-3 text-[15px]">Smart table</h3>
             <p>5 items</p>
           </div>
